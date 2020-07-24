@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script src="jquery-1.7.2.js"></script>
+<script>
+/**$(function(){
+	function danji(th){
+		var par = $(th).parent().parent();
+		par.childern().eq(3).html("<input type='text' size='3px' onblur = 'bul(this)'");
+	}
+
+	function bul(th){
+		var par = $(th).parent().parent();
+		par.childern().eq(3).html(this.val);
+	}
+})*/
+
+</script>
+<script src="test.js"></script>
+<link type="text/css" rel="styleSheet"  href="test.css" />
+<body>
+
+	<p><input type="button" id="fanxuan" value="反选"/>
+	<input type="button" id="add" value="增加">
+	<input type="button" id="del" value="删除">
+	<input type="button" id="copy" value="复制">
+	</p>
+	<table id="tab" border="1">
+		<tr>
+			<td>
+				<input type="checkbox" id="check" name="checkName"/>
+			</td>
+			<td>
+				<p>书名</p>
+			</td>
+			<td>
+				<p>作者</p>
+			</td>
+			<td>
+				<p>数量</p>
+			</td>
+			<td>
+				<p>操作</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" id="" name="checked" />
+			</td>
+			<td>
+				<p>《java编程思想》</p>
+			</td>
+			<td>
+				<p>陈某人</p>
+			</td>
+			<td>
+				<p>10</p>
+			</td>
+			<td>
+				<p><input type="button" id="" name="" value="删除"/>
+				<input type="button" name="aa" id="" value="修改数量" onclick="change(this)"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" id="" name="checked"/>
+			</td>
+			<td>
+				<p>《java的污蔑》</p>
+			</td>
+			<td>
+				<p>陈某晨</p>
+			</td>
+			<td>
+				<p>5</p>
+			</td>
+			<td>
+				<p><input type="button" id="" value="删除" name=""/>
+				<input type="button"  name="aa" id="" value="修改数量" onclick="change(this)"/></p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
